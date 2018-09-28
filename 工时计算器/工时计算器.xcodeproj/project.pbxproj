@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCA47735215E16C70043E10D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA47734215E16C70043E10D /* AppDelegate.swift */; };
+		DCA47737215E16C70043E10D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA47736215E16C70043E10D /* ViewController.swift */; };
+		DCA47739215E16C70043E10D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCA47738215E16C70043E10D /* Assets.xcassets */; };
+		DCA4773C215E16C70043E10D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCA4773A215E16C70043E10D /* Main.storyboard */; };
+		DCA4774B215E170C0043E10D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCA4774A215E170C0043E10D /* Cocoa.framework */; };
+		DCA4774E215E170C0043E10D /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA4774D215E170C0043E10D /* SafariExtensionHandler.swift */; };
+		DCA47750215E170C0043E10D /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA4774F215E170C0043E10D /* SafariExtensionViewController.swift */; };
+		DCA47753215E170C0043E10D /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCA47751215E170C0043E10D /* SafariExtensionViewController.xib */; };
+		DCA47756215E170C0043E10D /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = DCA47755215E170C0043E10D /* script.js */; };
+		DCA4775C215E170C0043E10D /* 工时计算器Plug-in.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DCA47748215E170C0043E10D /* 工时计算器Plug-in.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DCA47762215E17560043E10D /* ToolbarItemIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = DCA47761215E17560043E10D /* ToolbarItemIcon.png */; };
+		DCA47764215E17690043E10D /* JHWorkHoursCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA47763215E17690043E10D /* JHWorkHoursCalculator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCA4775A215E170C0043E10D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCA47729215E16C70043E10D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCA47747215E170C0043E10D;
+			remoteInfo = "工时计算器Plug-in";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DCA47760215E170C0043E10D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DCA4775C215E170C0043E10D /* 工时计算器Plug-in.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DCA47731215E16C70043E10D /* 工时计算器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "工时计算器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCA47734215E16C70043E10D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCA47736215E16C70043E10D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCA47738215E16C70043E10D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCA4773B215E16C70043E10D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCA4773D215E16C70043E10D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCA4773E215E16C70043E10D /* _____.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "_____.entitlements"; sourceTree = "<group>"; };
+		DCA47748215E170C0043E10D /* 工时计算器Plug-in.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "工时计算器Plug-in.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCA4774A215E170C0043E10D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DCA4774D215E170C0043E10D /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
+		DCA4774F215E170C0043E10D /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
+		DCA47752215E170C0043E10D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
+		DCA47754215E170C0043E10D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCA47755215E170C0043E10D /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		DCA47759215E170C0043E10D /* _____Plug_in.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "_____Plug_in.entitlements"; sourceTree = "<group>"; };
+		DCA47761215E17560043E10D /* ToolbarItemIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ToolbarItemIcon.png; sourceTree = "<group>"; };
+		DCA47763215E17690043E10D /* JHWorkHoursCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHWorkHoursCalculator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCA4772E215E16C70043E10D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA47745215E170C0043E10D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA4774B215E170C0043E10D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCA47728215E16C70043E10D = {
+			isa = PBXGroup;
+			children = (
+				DCA47733215E16C70043E10D /* 工时计算器 */,
+				DCA4774C215E170C0043E10D /* 工时计算器Plug-in */,
+				DCA47749215E170C0043E10D /* Frameworks */,
+				DCA47732215E16C70043E10D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCA47732215E16C70043E10D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCA47731215E16C70043E10D /* 工时计算器.app */,
+				DCA47748215E170C0043E10D /* 工时计算器Plug-in.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCA47733215E16C70043E10D /* 工时计算器 */ = {
+			isa = PBXGroup;
+			children = (
+				DCA47734215E16C70043E10D /* AppDelegate.swift */,
+				DCA47736215E16C70043E10D /* ViewController.swift */,
+				DCA47738215E16C70043E10D /* Assets.xcassets */,
+				DCA4773A215E16C70043E10D /* Main.storyboard */,
+				DCA4773D215E16C70043E10D /* Info.plist */,
+				DCA4773E215E16C70043E10D /* _____.entitlements */,
+			);
+			path = "工时计算器";
+			sourceTree = "<group>";
+		};
+		DCA47749215E170C0043E10D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCA4774A215E170C0043E10D /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCA4774C215E170C0043E10D /* 工时计算器Plug-in */ = {
+			isa = PBXGroup;
+			children = (
+				DCA4774D215E170C0043E10D /* SafariExtensionHandler.swift */,
+				DCA4774F215E170C0043E10D /* SafariExtensionViewController.swift */,
+				DCA47751215E170C0043E10D /* SafariExtensionViewController.xib */,
+				DCA47763215E17690043E10D /* JHWorkHoursCalculator.swift */,
+				DCA47754215E170C0043E10D /* Info.plist */,
+				DCA47755215E170C0043E10D /* script.js */,
+				DCA47761215E17560043E10D /* ToolbarItemIcon.png */,
+				DCA47759215E170C0043E10D /* _____Plug_in.entitlements */,
+			);
+			path = "工时计算器Plug-in";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCA47730215E16C70043E10D /* 工时计算器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCA47741215E16C70043E10D /* Build configuration list for PBXNativeTarget "工时计算器" */;
+			buildPhases = (
+				DCA4772D215E16C70043E10D /* Sources */,
+				DCA4772E215E16C70043E10D /* Frameworks */,
+				DCA4772F215E16C70043E10D /* Resources */,
+				DCA47760215E170C0043E10D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCA4775B215E170C0043E10D /* PBXTargetDependency */,
+			);
+			name = "工时计算器";
+			productName = "工时计算器";
+			productReference = DCA47731215E16C70043E10D /* 工时计算器.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCA47747215E170C0043E10D /* 工时计算器Plug-in */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCA4775D215E170C0043E10D /* Build configuration list for PBXNativeTarget "工时计算器Plug-in" */;
+			buildPhases = (
+				DCA47744215E170C0043E10D /* Sources */,
+				DCA47745215E170C0043E10D /* Frameworks */,
+				DCA47746215E170C0043E10D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "工时计算器Plug-in";
+			productName = "工时计算器Plug-in";
+			productReference = DCA47748215E170C0043E10D /* 工时计算器Plug-in.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCA47729215E16C70043E10D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "youdone-dev";
+				TargetAttributes = {
+					DCA47730215E16C70043E10D = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					DCA47747215E170C0043E10D = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = DCA4772C215E16C70043E10D /* Build configuration list for PBXProject "工时计算器" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCA47728215E16C70043E10D;
+			productRefGroup = DCA47732215E16C70043E10D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCA47730215E16C70043E10D /* 工时计算器 */,
+				DCA47747215E170C0043E10D /* 工时计算器Plug-in */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCA4772F215E16C70043E10D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA47739215E16C70043E10D /* Assets.xcassets in Resources */,
+				DCA4773C215E16C70043E10D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA47746215E170C0043E10D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA47762215E17560043E10D /* ToolbarItemIcon.png in Resources */,
+				DCA47753215E170C0043E10D /* SafariExtensionViewController.xib in Resources */,
+				DCA47756215E170C0043E10D /* script.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCA4772D215E16C70043E10D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA47737215E16C70043E10D /* ViewController.swift in Sources */,
+				DCA47735215E16C70043E10D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA47744215E170C0043E10D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA47750215E170C0043E10D /* SafariExtensionViewController.swift in Sources */,
+				DCA4774E215E170C0043E10D /* SafariExtensionHandler.swift in Sources */,
+				DCA47764215E17690043E10D /* JHWorkHoursCalculator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCA4775B215E170C0043E10D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCA47747215E170C0043E10D /* 工时计算器Plug-in */;
+			targetProxy = DCA4775A215E170C0043E10D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCA4773A215E16C70043E10D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCA4773B215E16C70043E10D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCA47751215E170C0043E10D /* SafariExtensionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCA47752215E170C0043E10D /* Base */,
+			);
+			name = SafariExtensionViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCA4773F215E16C70043E10D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCA47740215E16C70043E10D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		DCA47742215E16C70043E10D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "工时计算器/_____.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8W4L4AS24H;
+				INFOPLIST_FILE = "工时计算器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "PushTest.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		DCA47743215E16C70043E10D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "工时计算器/_____.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8W4L4AS24H;
+				INFOPLIST_FILE = "工时计算器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "PushTest.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		DCA4775E215E170C0043E10D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "工时计算器Plug-in/_____Plug_in.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8W4L4AS24H;
+				INFOPLIST_FILE = "工时计算器Plug-in/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "PushTest.-----.-----Plug-in";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		DCA4775F215E170C0043E10D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "工时计算器Plug-in/_____Plug_in.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8W4L4AS24H;
+				INFOPLIST_FILE = "工时计算器Plug-in/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "PushTest.-----.-----Plug-in";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCA4772C215E16C70043E10D /* Build configuration list for PBXProject "工时计算器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCA4773F215E16C70043E10D /* Debug */,
+				DCA47740215E16C70043E10D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCA47741215E16C70043E10D /* Build configuration list for PBXNativeTarget "工时计算器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCA47742215E16C70043E10D /* Debug */,
+				DCA47743215E16C70043E10D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCA4775D215E170C0043E10D /* Build configuration list for PBXNativeTarget "工时计算器Plug-in" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCA4775E215E170C0043E10D /* Debug */,
+				DCA4775F215E170C0043E10D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCA47729215E16C70043E10D /* Project object */;
+}
